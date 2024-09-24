@@ -23,5 +23,6 @@ public class BuddyInfo {
 
     public static void main(String[] args) {
         BuddyInfo buddyInfo = new BuddyInfo("Homer", "123 Main st.", "123456789");
+        System.out.println("Hello " + buddyInfo.getName());
     }
 }
